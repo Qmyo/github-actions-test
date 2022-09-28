@@ -1,7 +1,10 @@
 name: Actions Workflow
 
 on: 
-  push: 
+  push:
+    branches:
+      - master
+  # push: 
   pull_request:
     types: [closed, assigned, opened, reopened]
 
