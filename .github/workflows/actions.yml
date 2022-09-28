@@ -5,6 +5,7 @@ on:
     branches:
       - master
   # push: 
+  
   pull_request:
     types: [closed, assigned, opened, reopened]
 
